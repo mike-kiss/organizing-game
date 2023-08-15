@@ -3,20 +3,180 @@
         "name": "Friend Moves Away",
         "type": "Challenge",
         "subtype": "Big",
-        "resources": [
-            0,
-            0,
-            0,
-            0,
-            0
-        ],
         "attributes": [
-            "Life Challenge"
+            "Life"
         ],
         "powers": [
             {
                 "flavor": "We'll miss you!",
                 "text": "Tuck a Friend."
+            }
+        ]
+    },
+    {
+        "name": "Parenthood",
+        "type": "Challenge",
+        "subtype": "Small",
+        "attributes": [
+            "Life"
+        ],
+        "powers": [
+            {
+                "flavor": "It gets easier",
+                "text": "A friend is Out of Play for 4 Seasons. After that, every Project they connect to gains an extra follower."
+            }
+        ]
+    },
+    {
+        "name": "World on Your Shoulders",
+        "type": "Challenge",
+        "subtype": "Small",
+        "attributes": [
+            "Org"
+        ],
+        "powers": [
+            {
+                "flavor": "Can't do everything",
+                "text": "Choose a Connected Friend to Connect this to. That Friend must have the most Diligence on its Project. Each Season, if it has the most Diligence on its Project, this gains 1 Tension, otherwise it removes 1. At 4 Tension, the Friend Burns Out."
+            }
+        ]
+    },
+    {
+        "name": "Wave of Burnout",
+        "type": "Challenge",
+        "subtype": "Big",
+        "attributes": [
+            "Org"
+        ],
+        "powers": [
+            {
+                "flavor": "It's too much",
+                "text": "For each Project, if the highest Diligence among Friends on that is 2 or more greater than the next highest Diligence, the Friend with the highest Diligence Burns Out."
+            }
+        ]
+    },
+    {
+        "name": "Controversial Reckoning",
+        "type": "Challenge",
+        "subtype": "Big",
+        "attributes": [
+            "Org"
+        ],
+        "powers": [
+            {
+                "flavor": "Cancelled",
+                "text": "For each Project, if the highest Guile among Friends on it is 2 or more greater than the next highest Guile, the Friend with the highest Guile is Out of Play for Four Seasons."
+            }
+        ]
+    },
+    {
+        "name": "Feckless Leadership",
+        "type": "Challenge",
+        "subtype": "Big",
+        "attributes": [
+            "Org"
+        ],
+        "powers": [
+            {
+                "flavor": "Arrogant challenge",
+                "text": "For each Group, if the Bottom-liner has less intellect than another Connected Friend, The Friend with the Higher Intellect can not be Connected to a Project with Bottom-Liner until next Year."
+            }
+        ]
+    },
+    {
+        "name": "Tried to Tell You",
+        "type": "Challenge",
+        "subtype": "Big",
+        "attributes": [
+            "Org"
+        ],
+        "powers": [
+            {
+                "flavor": "Just wouldn't listen",
+                "text": "For each Project, if the highest Wisdom among Friends on it is 2 or more greater than the next highest Wisdom, Stress all Friends on the Project."
+            }
+        ]
+    },
+    {
+        "name": "Bad Breakup",
+        "type": "Challenge",
+        "subtype": "Small",
+        "attributes": [
+            "Interpersonal"
+        ],
+        "powers": [
+            {
+                "flavor": "Don't wanna see 'em",
+                "text": "Choose two Friends currently Connected to the same Project. For the next year, they cannot Connect to the same Project."
+            }
+        ]
+    },
+    {
+        "name": "Suburban Sprawl",
+        "type": "Challenge",
+        "subtype": "Big",
+        "attributes": [
+            "Ecological"
+        ],
+        "powers": [
+            {
+                "flavor": "'...industry, houses, jobs, medicine, videos, toys, cheeseburgers, cars, computer games, a functioning economy...'",
+                "text": "Tuck an Ecological Project."
+            }
+        ]
+    },
+    {
+        "name": "Break Up the Band",
+        "type": "Challenge",
+        "subtype": "Big",
+        "attributes": [
+            "Org"
+        ],
+        "powers": [
+            {
+                "flavor": "It's over",
+                "text": "Tuck a Project."
+            }
+        ]
+    },
+    {
+        "name": "Bad PR",
+        "type": "Challenge",
+        "subtype": "Big",
+        "attributes": [
+            "Political"
+        ],
+        "powers": [
+            {
+                "flavor": "Opposing campaign",
+                "text": "All your Political projects lose 1 Maturity."
+            }
+        ]
+    },
+    {
+        "name": "Disgraceful Scandal",
+        "type": "Challenge",
+        "subtype": "Big",
+        "attributes": [
+            "Political"
+        ],
+        "powers": [
+            {
+                "flavor": "Forced to retire",
+                "text": "One of your political projects loses all maturity and becomes Inactive."
+            }
+        ]
+    },
+    {
+        "name": "Opposing Endorsement",
+        "type": "Challenge",
+        "subtype": "Small",
+        "attributes": [
+            "Political"
+        ],
+        "powers": [
+            {
+                "text": "One of your Poltical Projects loses 1 Maturity."
             }
         ]
     }

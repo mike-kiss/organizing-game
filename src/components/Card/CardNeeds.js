@@ -21,8 +21,6 @@ export const CardNeed = ({ need, position }) => {
     const resources = need?.resources
     const hasAttributesAndResources = attributes?.length > 0 && resources?.length
 
-    console.log(resources)
-
     return (
         <div className={classNames(
             "card-needs",

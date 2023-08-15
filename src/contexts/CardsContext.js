@@ -1,4 +1,4 @@
-import { useContext, createContext, useState, useEffect } from "react";
+import { useContext, createContext, useState } from "react";
 
 import challenges from "../data/challenges.json"
 import levelOneFriends from "../data/levelOneFriends.json"
@@ -35,6 +35,8 @@ export const CardsProvider = ({ children }) => {
     const [decks, setDecks] = useState({
         "abolishLawnsWithGrannysGuile": abolishLawnsWithGrannysGuile
     })
+
+    console.log("CHALLENGES!", challenges)
     // Filtering State
     const [currentDeck, setCurrentDeck] = useState(null)
     const [currentCardName, setCurrentCardName] = useState("")
