@@ -1,0 +1,69 @@
+[
+    {
+        "name": "Neo-hippie Cult Leader",
+        "type": "Friend",
+        "phase": "fruition",
+        "resources": [
+            4,
+            4,
+            3,
+            3,
+            3
+        ],
+        "attributes": [
+            "Chill",
+            "Wealthy",
+            "Charismatic"
+        ],
+        "powers": [
+            {
+                "flavor": "Rural retreat",
+                "text": "All your Friends provide +1 Wisdom."
+            }
+        ],
+        "flavor": "'... but my friends call me \"Space Dragon\"...'"
+    },
+    {
+        "name": "Accomplished Maker",
+        "type": "Friend",
+        "phase": "Fruition",
+        "resources": [
+            3,
+            4,
+            3,
+            4,
+            3
+        ],
+        "attributes": [
+            "Critical thinking"
+        ],
+        "powers": [
+            {
+                "flavor": "Head and Heart",
+                "text": "This Friend's Passion can also be used as Knowledge, and vice versa."
+            }
+        ]
+    },
+    {
+        "name": "Unlikely Spy",
+        "type": "Friend",
+        "phase": "Fruition",
+        "resources": [
+            3,
+            3,
+            3,
+            3,
+            3
+        ],
+        "attributes": [
+            "Clandestine"
+        ],
+        "powers": [
+            {
+                "flavor": "I know some people",
+                "text": "You may Overcome any Challenge. Limit: Once per Game."
+            }
+        ],
+        "flavor": "*resigned sigh* 'No thanks. I'm currently plotting to overthrow the government.'"
+    }
+]

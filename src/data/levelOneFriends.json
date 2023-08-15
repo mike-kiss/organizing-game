@@ -1,0 +1,311 @@
+[
+    {
+        "name": "Dedicated Newcomer",
+        "type": "Friend",
+        "resources": [
+            0,
+            0,
+            0,
+            0,
+            1
+        ],
+        "attributes": [
+            "Cautious"
+        ],
+        "powers": [
+            {
+                "flavor": "Can-do attitude",
+                "text": "This Friend can Plug-In to any Role with total Needs 2 or less. If the Role requires Guile, they become Stressed."
+            }
+        ]
+    },
+    {
+        "name": "Enthusiastic Recruit",
+        "type": "Friend",
+        "resources": [
+            0,
+            1,
+            0,
+            0,
+            0
+        ],
+        "attributes": [
+            "Adventurous"
+        ],
+        "powers": [
+            {
+                "cost": {
+                    "resources": [
+                        0,
+                        1,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "flavor": "Zeal for the cause",
+                "text": "This Friend Plugs-in to any role with total Needs 3 or less. This friend becomes Stressed and cannot De-stress while plugged in."
+            }
+        ]
+    },
+    {
+        "name": "College Undergrad",
+        "type": "Friend",
+        "resources": [
+            0,
+            0,
+            0,
+            1,
+            0
+        ],
+        "attributes": [
+            "Critical thinking"
+        ],
+        "powers": [
+            {
+                "flavor": "Planning ahead",
+                "text": "Each Season you may look at the top 1 Card of your Deck. You may Tuck it."
+            }
+        ]
+    },
+    {
+        "name": "Chill Bestie",
+        "type": "Friend",
+        "resources": [
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "attributes": [
+            "Chill"
+        ],
+        "powers": [
+            {
+                "flavor": "Don't worry, I got you.",
+                "text": "Each Spring, you may De-stress 1 Friend"
+            }
+        ]
+    },
+    {
+        "name": "Train-hopping Rapscallion",
+        "type": "Friend",
+        "resources": [
+            0,
+            0,
+            1,
+            0,
+            0
+        ],
+        "attributes": [
+            "Low-maintenance",
+            "Worldly",
+            "Adventurous"
+        ],
+        "powers": []
+    },
+    {
+        "name": "Newbie Organizer",
+        "type": "Friend",
+        "resources": [
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "attributes": [],
+        "powers": [
+            {
+                "cost": {
+                    "total": 2
+                },
+                "flavor": "Handle the spreadsheets",
+                "text": "Other needs on this team or goal require one less Diligence."
+            }
+        ]
+    },
+    {
+        "name": "Melodramatic Art Student",
+        "type": "Friend",
+        "resources": [
+            0,
+            1,
+            0,
+            0,
+            0
+        ],
+        "attributes": [
+            "Artsy"
+        ],
+        "powers": [
+            {
+                "cost": {
+                    "total": 1
+                },
+                "flavor": "Consuming passion",
+                "text": "Stress out. For the season, all Needs for Passion are reduced by up to 1."
+            }
+        ]
+    },
+    {
+        "name": "Oddly Sharp Larper",
+        "type": "Friend",
+        "resources": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "attributes": [],
+        "powers": []
+    },
+    {
+        "name": "Zine Printing Punk",
+        "type": "Friend",
+        "resources": [
+            0,
+            1,
+            0,
+            1,
+            0
+        ],
+        "attributes": [
+            "Critical thinking",
+            "Propaganda skills"
+        ],
+        "powers": []
+    },
+    {
+        "name": "Crafty Gangster",
+        "type": "Friend",
+        "resources": [
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "attributes": [
+            "Firearms skills",
+            "Tough"
+        ],
+        "powers": [
+            {
+                "cost": {
+                    "total": 2
+                },
+                "flavor": "Intimitation Tactics",
+                "text": "Stress out any unstressed Friend. Odds are (1/6) this Friend also becomes Stressed. Limit: Once per Year"
+            }
+        ]
+    },
+    {
+        "name": "Shady Gangster",
+        "type": "Friend",
+        "resources": [
+            0,
+            0,
+            2,
+            0,
+            0
+        ],
+        "attributes": [
+            "Firearms skills",
+            "Tough"
+        ],
+        "powers": [
+            {
+                "cost": {
+                    "total": 2
+                },
+                "flavor": "Intimitation Tactics",
+                "text": "Stress out any unstressed Friend. Odds are (1/3) this Friend also becomes Stressed."
+            }
+        ]
+    },
+    {
+        "name": "Young Farmer",
+        "type": "Friend",
+        "resources": [
+            1,
+            0,
+            0,
+            0,
+            1
+        ],
+        "attributes": [
+            "Agriculture skills",
+            "Firearms skills"
+        ],
+        "powers": []
+    },
+    {
+        "name": "Grateful Hunter",
+        "type": "Friend",
+        "resources": [
+            1,
+            0,
+            1,
+            0,
+            0
+        ],
+        "attributes": [
+            "Hunting skills",
+            "Firearms skills"
+        ],
+        "powers": []
+    },
+    {
+        "name": "Avid Hunter",
+        "type": "Friend",
+        "resources": [
+            0,
+            0,
+            2,
+            0,
+            0
+        ],
+        "attributes": [
+            "Hunting skills",
+            "Firearms skills"
+        ],
+        "powers": []
+    },
+    {
+        "name": "Warm Body",
+        "type": "Friend",
+        "resources": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "flavor": "Oh them? Sure. They're fine."
+    },
+    {
+        "name": "Patron of the Arts",
+        "type": "Friend",
+        "resources": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "flavor": "I'll take care of it.",
+        "powers": [
+            {
+                "flavor": "It's who you know",
+                "text": "You cannot Play this during your Seed phase."
+            },
+            {
+                "flavor": "Generous support",
+                "text": "De-stress all Friends plugged into Artsy projects. They cannot Burn Out."
+            }
+        ]
+    }
+]

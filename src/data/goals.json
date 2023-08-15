@@ -1,0 +1,120 @@
+[
+    {
+        "name": "Set Up the Wiki",
+        "type": "Project",
+        "subtype": "Goal",
+        "duration": "1",
+        "resources": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "attributes": [
+            "Technology project",
+            "Institutional memory"
+        ],
+        "powers": [
+            {
+                "flavor": "Read the wiki",
+                "text": "When Completed, give this 5 Maturity, and Connect it to a Group or Goal. The card it supports needs 1 less knowledge for all roles for each Maturity. Each season, remove 1 Maturity."
+            },
+            {
+                "cost": {
+                    "resources": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                "flavor": "Update the wiki",
+                "text": "Add 1 Maturity."
+            }
+        ],
+        "needs": [
+            {
+                "resources": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Write the Peoples' Anthem",
+        "type": "Project",
+        "subtype": "Goal",
+        "duration": "2",
+        "resources": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "powers": [
+            {
+                "flavor": "Music of the people",
+                "text": "Once completed, all Needs for Passion are reduced by 1."
+            }
+        ],
+        "needs": [
+            {
+                "resources": [
+                    0,
+                    2,
+                    0,
+                    0,
+                    0
+                ],
+                "attributes": [
+                    "artsy"
+                ]
+            }
+        ],
+        "flavor": "You CAN hear the people sing!"
+    },
+    {
+        "name": "Recruitment Drive",
+        "type": "Project",
+        "subtype": "Goal",
+        "resources": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "powers": [
+            {
+                "flavor": "Raise Awareness",
+                "text": "When Completed, Connect this to a Project. Double the number of followers for that project."
+            },
+            {
+                "cost": {
+                    "total": 2
+                },
+                "flavor": "Get the word out",
+                "text": "The next time the connected project would gain followers, it gains twice that many followers instead."
+            }
+        ],
+        "needs": [
+            {
+                "resources": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    1
+                ]
+            }
+        ],
+        "flavor": "Come join us!"
+    }
+]

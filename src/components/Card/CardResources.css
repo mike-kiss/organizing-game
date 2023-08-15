@@ -1,0 +1,69 @@
+.card-resources {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.05in 0.5in 0 0.5in;
+}
+
+.card-resource {
+    width: 0.25in;
+    height: 0.25in;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 0.2in;
+    color: var(--bgColor);
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.is-main-resource {
+    border-radius: 0;
+}
+
+.card-resource.Wisdom {
+    background-color: var(--colorWisdom);
+}
+
+.card-resource.Passion {
+    background-color: var(--colorPassion);
+}
+
+.card-resource.Guile {
+    background-color: var(--colorGuile);
+}
+
+.card-resource.Intellect {
+    background-color: var(--colorIntellect);
+}
+
+.card-resource.Diligence {
+    background-color: var(--colorDiligence);
+}
+
+.resource-value-length-2 {
+    font-size: 0.175in;
+    line-height: 0.25in;
+}
+
+.resource-value-length-3 {
+    font-size: 0.125in;
+    line-height: 0.25in;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.resource-value-0 {
+    background-color: var(--bgColor) !important;
+    color: var(--bgColor);
+    border: 1px solid var(--borderColor);
+}
+
+.light-mode .resource-value-0 {
+    -webkit-text-stroke-color: white;
+}
+
+.resource-value-2::after {
+    content: '';
+
+}

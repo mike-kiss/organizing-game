@@ -1,0 +1,21 @@
+@media only print {
+    header.header {
+        display: none;
+    }
+
+    .card-container {
+        justify-content: center;
+        padding: 0in;
+        row-gap: 0;
+    }
+
+    .card {
+        break-inside: avoid;
+        border-color: var(--borderColor) !important;
+    }
+}
+
+body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+}

@@ -1,0 +1,86 @@
+.card-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 20;
+    background: var(--bgColor);
+    color: var(--textColor);
+    padding: 0.05in 0.125in 0.125in 0.125in;
+    border-top: 1px solid var(--borderColor);
+}
+
+.card-text.has-needs {
+    padding-bottom: 0.375in;
+}
+
+.card-text.multiple-needs {
+    padding-left: 0.375in;
+    padding-right: 0.375in;
+}
+
+.card-text.bottom-need-has-attributes-and-resources {
+    padding-bottom: 0.625in;
+}
+
+.card-text.four-needs {
+    padding-bottom: 0.5in;
+}
+
+.card-text.four-needs .card-flavor {
+    padding-left: 0.5in;
+    padding-right: 0.5in;
+}
+
+.card-text.narrow {
+    padding-left: 0.5in;
+    padding-right: 0.5in;
+}
+
+.card-attributes {
+    text-align: center;
+    font-size: 0.125in;
+    padding-bottom: 0.05in;
+    margin-bottom: 0.05in;
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.card-attribute {
+    display: inline-block;
+}
+
+.card-powers {
+    font-size: 0.125in;
+    text-align: left;
+}
+
+.card-power {
+    margin: 0 0 0.05in 0;
+}
+
+.card-power-cost {
+    display: block;
+    text-align: center;
+}
+
+/* .card-power-cost .card-needs {
+    scale: 0.8;
+    font-size: 0.25in;
+} */
+.card-power-cost .card-need {
+    scale: 0.8;
+    font-size: 0.25in;
+    line-height: 1.25;
+}
+
+.card-power-flavor {
+    font-style: italic;
+}
+
+.card-flavor {
+    border-top: 1px solid var(--borderColor);
+    text-align: center;
+    font-size: 0.125in;
+    font-style: italic;
+    padding: 0.05in 0in;
+    margin-top: 0.05in;
+}

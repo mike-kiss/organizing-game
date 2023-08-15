@@ -1,0 +1,9 @@
+.card-art-container {
+    position: relative;
+    margin: 0;
+    margin-top: -0.2in;
+    z-index: 10;
+    width: 100%;
+    height: 3in;
+    overflow: hidden;
+}

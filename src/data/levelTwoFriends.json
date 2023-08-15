@@ -1,0 +1,109 @@
+[
+    {
+        "name": "Maniacal Lawyer",
+        "type": "Friend",
+        "resources": [
+            1,
+            2,
+            1,
+            2,
+            1
+        ],
+        "attributes": [
+            "Critical thinking",
+            "Wealthy",
+            "Legal Skills",
+            "Charismatic"
+        ],
+        "powers": [
+            {
+                "flavor": "Wage lawfare",
+                "text": "Solve a small Legal Challenge. If this Friend is Connected, it becomes Stressed or Disconnects. Limit: Once per Year."
+            }
+        ],
+        "flavor": "'... in the real estate game, folks call me \"Boots\"...'"
+    },
+    {
+        "name": "Counterculture Post-Doc",
+        "type": "Friend",
+        "phase": "Sprout",
+        "resources": [
+            1,
+            1,
+            1,
+            3,
+            1
+        ],
+        "attributes": [
+            "Critical thinking"
+        ],
+        "powers": [
+            {
+                "flavor": "Font of knowledge",
+                "text": "All your roles Need 1 less Knowledge."
+            }
+        ]
+    },
+    {
+        "name": "Neo-Hippie Art Maven",
+        "type": "Friend",
+        "phase": "Sprout",
+        "resources": [
+            1,
+            2,
+            1,
+            2,
+            1
+        ],
+        "attributes": [
+            "Critical thinking"
+        ],
+        "powers": [
+            {
+                "flavor": "Head and Heart",
+                "text": "This Friend's Passion can also be used as Knowledge, and vice versa."
+            }
+        ]
+    },
+    {
+        "name": "Ex-pat Tavern Keeper",
+        "type": "Friend",
+        "phase": "Blossom",
+        "resources": [
+            2,
+            2,
+            2,
+            3,
+            2
+        ],
+        "attributes": [
+            "Clandestine"
+        ],
+        "powers": [
+            {
+                "flavor": "Take some info, leave some info",
+                "text": "All your friends Knowledge can be allocated to any Need or Power."
+            }
+        ],
+        "flavor": "'One trick to blend in is driving like a local: 90mph on cracked roads in a beat up 1997 Camry...'"
+    },
+    {
+        "name": "Experienced Grifter",
+        "type": "Friend",
+        "phase": "Sprout",
+        "resources": [
+            0,
+            0,
+            5,
+            1,
+            0
+        ],
+        "powers": [
+            {
+                "flavor": "Oh yeah, of course!",
+                "text": "Unless stressed, this friend's Guile can be used as any other resource except Knowledge."
+            }
+        ],
+        "flavor": "'Normally the price is much higher, but because you're such a good friend...'"
+    }
+]

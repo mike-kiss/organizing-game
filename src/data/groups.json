@@ -1,0 +1,303 @@
+[
+    {
+        "name": "Team",
+        "type": "Project",
+        "subtype": "Group",
+        "resources": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+        ],
+        "powers": [
+            {
+                "flavor": "Greater than the sum",
+                "text": "Team provides the total of all resources provided by its members, plus 1 of each resource."
+            }
+        ],
+        "needs": [
+            {
+                "resources": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "resources": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "resources": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Social Movement",
+        "type": "Project",
+        "subtype": "Group",
+        "resources": [
+            5,
+            10,
+            5,
+            5,
+            5
+        ],
+        "powers": [
+            {
+                "flavor": "Mass Movement",
+                "text": "Each season, if fully-staffed, this Group Attracts two Followers. For every 10 followers it has (round up), it produces an additional resource of each type."
+            }
+        ],
+        "needs": [
+            {
+                "resources": [
+                    0,
+                    1,
+                    0,
+                    1,
+                    1
+                ]
+            },
+            {
+                "resources": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "resources": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    1
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sex Club",
+        "type": "Project",
+        "subtype": "Group",
+        "resources": [
+            "10/5",
+            10,
+            "5/10",
+            5,
+            5
+        ],
+        "needs": [
+            {
+                "attributes": [
+                    "Charismatic"
+                ],
+                "resources": [
+                    0,
+                    1,
+                    0,
+                    1,
+                    1
+                ]
+            },
+            {
+                "resources": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "resources": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    1
+                ]
+            }
+        ],
+        "powers": [
+            {
+                "flavor": "Pleasure or Power",
+                "text": "If the bottom-liner's main resource is Guile, this produces 5 Wisdom and 10 Guile [Stress?]. Otherwise it produces 10 Wisdom and 5 guile."
+            }
+        ]
+    },
+    {
+        "name": "Guerilla Band",
+        "type": "Project",
+        "subtype": "Group",
+        "resources": [
+            5,
+            10,
+            10,
+            5,
+            10
+        ],
+        "needs": [
+            {
+                "attributes": [
+                    "Low-maintenance",
+                    "firearms skills"
+                ],
+                "resources": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "attributes": [
+                    "Low-maintenance",
+                    "firearms skills"
+                ],
+                "resources": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            {
+                "attributes": [
+                    "Low-maintenance",
+                    "firearms skills"
+                ],
+                "resources": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    1
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Open Source Project",
+        "type": "Project",
+        "subtype": "Group",
+        "resources": [
+            8,
+            8,
+            8,
+            10,
+            8
+        ],
+        "powers": [
+            {
+                "flavor": "If there was a problem, ",
+                "text": "When this is Fully-staffed, you may solve any Technical Challenge. Limit: Once per Year."
+            }
+        ],
+        "needs": [
+            {
+                "resources": [
+                    0,
+                    0,
+                    0,
+                    2,
+                    1
+                ]
+            },
+            {
+                "resources": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    1
+                ]
+            },
+            {
+                "resources": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    1
+                ]
+            }
+        ],
+        "flavor": "... YO! We'll solve it!"
+    },
+    {
+        "name": "Punk House",
+        "type": "Project",
+        "subtype": "Group",
+        "resources": [
+            5,
+            10,
+            5,
+            5,
+            5
+        ],
+        "powers": [
+            {
+                "flavor": "Basement music venue",
+                "text": "While this Group is Plugged-in, Needs for Passion on what it supports are reduced by 1."
+            }
+        ],
+        "needs": [
+            {
+                "attributes": [
+                    "Low-maintenance"
+                ],
+                "resources": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "attributes": [
+                    "Low-maintenance"
+                ],
+                "resources": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "attributes": [
+                    "Low-maintenance"
+                ],
+                "resources": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ]
+    }
+]

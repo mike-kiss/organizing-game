@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.App {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  --colorWisdom: #44a999;
+  --colorPassion: #cc6777;
+  --colorGuile: #332188;
+  --colorIntellect: #88ccee;
+  --colorDiligence: #decb77;
+}
+
+.App {
+  --bgColor: black;
+  --textColor: white;
+  --borderColor: white;
+}
+
+.App.light-mode {
+  --bgColor: white;
+  --textColor: black;
+  --borderColor: black;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 0.25in;
+  justify-content: space-between;
+  width: 8.5in;
+  margin: 0.25in auto;
+  padding: 0.25in;
+  border: 1px solid #ccc;
+}

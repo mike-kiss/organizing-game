@@ -1,0 +1,937 @@
+{
+    "name": "Abolish Lawns with Granny's Guile",
+    "flavor": "In a quiet town nowhere particularly important lived a sweet old woman. She drank tea and knitted beautiful sweaters for her ungrateful grandchildren. She was co-President of the local Rotory Club and met with her friends on Sunday to play Bridge and exchange the latest gossip. She loved bees and she loved wildflowers and she wished the world were covered with them. One day, she decided to stop wishing and make it happen… by any means necessary.",
+    "description": "The Knitting Circles of Sumwarre have had enough of the loud lawnmowers and the toxic pesticides. They are going to Abolish Lawns and they are not afraid to get their hands dirty to do it. Use your Green Thumb to make 10,000 flowers bloom while you use Dirty Tricks to win the Mayor's Office and take over City Council. Grow from a Shady Grandma into a Social Club President or from a Wise Old Woman into a Foundation Founder. Just do what you need to do to get the job done.",
+    "cards": [
+        {
+            "name": "Abolish Lawns",
+            "type": "Project",
+            "subtype": "Goal, Ecological",
+            "attributes": [
+                "Ecological (x Followers)",
+                "Mass Movement (x Followers)"
+            ],
+            "powers": [
+                {
+                    "flavor": "Mass Movement",
+                    "text": "This has followers equal to its Maturity x 5"
+                }
+            ],
+            "needs": [
+                {
+                    "attributes": [
+                        "Combined Ecological x 10"
+                    ]
+                },
+                {
+                    "attributes": [
+                        "Media Attention"
+                    ]
+                },
+                {
+                    "attributes": [
+                        "(Combined Political Power x 5)",
+                        "OR",
+                        "(Mass Movement x 20)"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Become City Councillor",
+            "type": "Project",
+            "subtype": "Goal, Political",
+            "attributes": [
+                "Political Power x 2"
+            ],
+            "powers": [
+                {
+                    "flavor": "Election Year",
+                    "text": "Staff this only during years divisible by 4. This can only gain Maturity during an Election Year."
+                },
+                {
+                    "flavor": "Election",
+                    "text": "In Fall of an Election Year, roll a D6. If the result is less than our Maturity, Active this until the next Election and set its Maturity to 1. Else Deactivate this and set its Maturity to 0."
+                }
+            ],
+            "needs": [
+                {
+                    "flavor": "Candidate",
+                    "attributes": [
+                        "Charismatic"
+                    ],
+                    "resources": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "flavor": "Campaign Manager",
+                    "resources": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "flavor": "Support Team",
+                    "resources": [
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Become Mayor",
+            "type": "Project",
+            "subtype": "Goal, Political",
+            "attributes": [
+                "Political Power x 3"
+            ],
+            "powers": [
+                {
+                    "flavor": "Election Year",
+                    "text": "Staff this only during years divisible by 4. This can only gain Maturity during an Election Year."
+                },
+                {
+                    "flavor": "Election",
+                    "text": "In Fall of an Election Year, roll 2 D6. If the result is less than our Maturity, Active this until the next Election and set its Maturity to 1. Else Deactivate this and set its Maturity to 0."
+                }
+            ],
+            "needs": [
+                {
+                    "flavor": "Candidate",
+                    "attributes": [
+                        "Charismatic"
+                    ],
+                    "resources": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ]
+                },
+                {
+                    "flavor": "Campaign Manager",
+                    "resources": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ]
+                },
+                {
+                    "flavor": "Support Team",
+                    "resources": [
+                        8,
+                        8,
+                        8,
+                        8,
+                        8
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Wildflower Garden",
+            "type": "Project",
+            "subtype": "Goal, Horticultural",
+            "duration": 4,
+            "attributes": [
+                "Ecological"
+            ],
+            "powers": [
+                {
+                    "flavor": "Sowing Seeds",
+                    "text": "When this Matures, you may search your deck for another card named Wildflower Garden and put it into Play."
+                }
+            ],
+            "needs": [
+                {
+                    "resources": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Community Permaculture Garden",
+            "type": "Project",
+            "subtype": "Goal, Horticultural",
+            "duration": 6,
+            "attributes": [
+                "Ecological x 3"
+            ],
+            "powers": [
+                {
+                    "flavor": "Relaxing Respite",
+                    "text": "When Completed, all needs for Wisdom are reduced by 2."
+                },
+                {
+                    "flavor": "In good time",
+                    "text": "When Staffed, this Project gains 1 Maturity for each Covered Role."
+                }
+            ],
+            "needs": [
+                {
+                    "resources": [
+                        2,
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "resources": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "resources": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Anti-Lawnmower Front (ALF)",
+            "type": "Project",
+            "subtype": "Goal",
+            "attributes": [
+                "Clandestine"
+            ],
+            "powers": [
+                {
+                    "flavor": "Cadre",
+                    "text": "This has Followers equal to its Maturity. If Unstaffed, it loses 1 Maturity each Season."
+                },
+                {
+                    "flavor": "Sabotage",
+                    "text": "When this has 4 or more followers, you may Handle 1 Ecological Challenge. Limit: Once per Year."
+                }
+            ],
+            "needs": [
+                {
+                    "resources": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "resources": [
+                        0,
+                        0,
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "resources": [
+                        0,
+                        0,
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Grassroots Network",
+            "type": "Project",
+            "subtype": "Goal",
+            "attributes": [
+                "Political"
+            ],
+            "powers": [
+                {
+                    "flavor": "Cadre",
+                    "text": "This has Followers equal to its Maturity. If Unstaffed, it loses 1 Maturity each Season."
+                },
+                {
+                    "flavor": "Political Support",
+                    "text": "During an Election, you may move 1 Maturity from this to each of any number of other Political Projects."
+                }
+            ],
+            "needs": [
+                {
+                    "resources": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "resources": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "resources": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Wise Old Woman",
+            "type": "Friend",
+            "phase": "Seed",
+            "resources": [
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "attributes": [
+                "Wise"
+            ],
+            "powers": [
+                {
+                    "flavor": "Elder’s Insight",
+                    "text": "Each Fall, you may Envision an additional time."
+                }
+            ]
+        },
+        {
+            "name": "Eccentric Old Lady",
+            "type": "Friend",
+            "phase": "Seed",
+            "resources": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "attributes": [
+                "Charismatic"
+            ],
+            "powers": [
+                {
+                    "flavor": "Whimsical notion",
+                    "text": "Each Spring, roll a D6, odds are ⅓ you draw a card."
+                }
+            ]
+        },
+        {
+            "name": "Shady Grandma",
+            "type": "Friend",
+            "phase": "Seed",
+            "resources": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "attributes": [
+                "Sneaky"
+            ],
+            "powers": [
+                {
+                    "flavor": "'Of course, dearie!'",
+                    "text": "Unless stressed, this friend's Guile can be used as any other Resource except Intellect."
+                }
+            ]
+        },
+        {
+            "name": "Scheming Grandma",
+            "type": "Friend",
+            "phase": "Seed",
+            "resources": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "attributes": [
+                "Sneaky"
+            ],
+            "powers": [
+                {
+                    "flavor": "Scheming",
+                    "text": "Each Fall and Winter, you may look at the top 2 cards of your Deck. You may Tuck any of them, and put the rest back in any order."
+                }
+            ]
+        },
+        {
+            "name": "Elderly Rabble-Rouser",
+            "type": "Friend",
+            "phase": "Seed",
+            "resources": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "powers": [
+                {
+                    "flavor": "Brought a buddy",
+                    "text": "If this is Connected to a Mass Movement, that movement gains an additional Follower."
+                }
+            ]
+        },
+        {
+            "name": "Shady Operative",
+            "type": "Friend",
+            "phase": "Sprout",
+            "resources": [
+                1,
+                1,
+                3,
+                1,
+                1
+            ],
+            "attributes": [
+                "Clandestine"
+            ],
+            "powers": [
+                {
+                    "cost": {
+                        "resources": [
+                            0,
+                            0,
+                            3,
+                            0,
+                            0
+                        ]
+                    },
+                    "flavor": "By any means",
+                    "text": "Each Winter, you may draw a card. If you do, Stress out one of your Friends."
+                }
+            ]
+        },
+        {
+            "name": "Charming Gossip",
+            "type": "Friend",
+            "phase": "Sprout",
+            "resources": [
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "attributes": [
+                "Charismatic"
+            ],
+            "powers": [
+                {
+                    "flavor": "Social Butterfly",
+                    "text": "You can Play an extra Friend Card each Season."
+                }
+            ]
+        },
+        {
+            "name": "Quiet Watcher",
+            "type": "Friend",
+            "phase": "Sprout",
+            "resources": [
+                1,
+                1,
+                1,
+                3,
+                1
+            ],
+            "attributes": [
+                "Knowledgeable"
+            ],
+            "powers": [
+                {
+                    "flavor": "Well executed plans",
+                    "text": "When this enters, you may Look at the top 3 cards of your Deck. You may Tuck any of them. Put the rest back in any order. Draw 1 Card."
+                }
+            ]
+        },
+        {
+            "name": "Veteran Activist",
+            "type": "Friend",
+            "phase": "Blossom",
+            "resources": [
+                2,
+                3,
+                2,
+                2,
+                2
+            ],
+            "powers": [
+                {
+                    "flavor": "Organize a Campaign",
+                    "text": "When this enters, Search your Deck and Vision Boards for a Political Project."
+                }
+            ]
+        },
+        {
+            "name": "Old Hand",
+            "type": "Friend",
+            "phase": "Blossom",
+            "resources": [
+                2,
+                2,
+                2,
+                3,
+                2
+            ],
+            "powers": [
+                {
+                    "flavor": "Proper Technique",
+                    "text": "While this is Connected to a Project, needs for Intellect on that project are reduced by half (round Needs down)."
+                }
+            ]
+        },
+        {
+            "name": "Bridge Shark",
+            "type": "Friend",
+            "phase": "Blossom",
+            "resources": [
+                2,
+                2,
+                3,
+                2,
+                2
+            ],
+            "powers": [
+                {
+                    "flavor": "What’re the odds?",
+                    "text": "If you would roll a die, instead roll two dice and ignore one."
+                }
+            ]
+        },
+        {
+            "name": "Ruthless Operative",
+            "type": "Friend",
+            "phase": "Blossom",
+            "resources": [
+                2,
+                2,
+                4,
+                2,
+                2
+            ],
+            "powers": [
+                {
+                    "flavor": "Ruthlessness",
+                    "text": "While this is Connected to a Project, Guile can be used in place of other Resources, except Intellect, for any of that Project's Needs and Costs."
+                }
+            ]
+        },
+        {
+            "name": "Historical Society Member",
+            "type": "Friend",
+            "phase": "Blossom",
+            "resources": [
+                2,
+                2,
+                2,
+                3,
+                2
+            ],
+            "powers": [
+                {
+                    "flavor": "Historical Knowledgeable",
+                    "text": "At the beginning of each Season, you may look at the bottom Card of your Deck. You may put that Card on top of your Deck. You may Shuffle your Deck."
+                }
+            ]
+        },
+        {
+            "name": "Social Club President",
+            "type": "Friend",
+            "phase": "Fruition",
+            "resources": [
+                3,
+                3,
+                4,
+                3,
+                3
+            ],
+            "attributes": [
+                "Persuasive",
+                "Charismatic"
+            ],
+            "powers": [
+                {
+                    "flavor": "Powerful Suggestion",
+                    "text": "When this Enters, Search your Deck and Vision Boards for a Friend."
+                }
+            ]
+        },
+        {
+            "name": "Yacht Club Commodore",
+            "type": "Friend",
+            "phase": "Fruition",
+            "resources": [
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "attributes": [
+                "Nautical Skills"
+            ]
+        },
+        {
+            "name": "Foundation Founder",
+            "type": "Friend",
+            "phase": "Fruition",
+            "resources": [
+                3,
+                3,
+                3,
+                4,
+                3
+            ],
+            "powers": [
+                {
+                    "flavor": "Deep Experience",
+                    "text": "While this is connected to a Project, if that Project would gain Maturity, it gains that much Maturity plus 1 instead."
+                }
+            ]
+        },
+        {
+            "name": "Rotory Club",
+            "type": "Project",
+            "subtype": "Group",
+            "resources": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+            ],
+            "powers": [
+                {
+                    "flavor": "Spy Network",
+                    "text": "During an Election Season, if this is Staffed, you may add or subtract one from any the die roll."
+                }
+            ],
+            "needs": [
+                {
+                    "resources": [
+                        0,
+                        0,
+                        1,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "resources": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "resources": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "flavor": "We see what you did there."
+        },
+        {
+            "name": "Knitting Circle",
+            "type": "Project",
+            "subtype": "Group",
+            "resources": [
+                "5",
+                "5",
+                "5",
+                "5",
+                "5"
+            ],
+            "powers": [
+                {
+                    "flavor": "Swappin’ Stories",
+                    "text": "You can use Excess Resources from this Project to Pay the Costs of any Power."
+                }
+            ],
+            "needs": [
+                {
+                    "resources": [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "resources": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "resources": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "flavor": "When true friends get together, there’s nothing they can’t accomplish."
+        },
+        {
+            "name": "Bridge Club",
+            "type": "Project",
+            "subtype": "Group",
+            "resources": [
+                "8",
+                "8",
+                "8",
+                "8",
+                "8"
+            ],
+            "powers": [
+                {
+                    "flavor": "Practiced Subtlety",
+                    "text": "When Fully Staffed, if you would look at the top of your Deck for any reason, you may look at an additional Card."
+                }
+            ],
+            "needs": [
+                {
+                    "resources": [
+                        0,
+                        0,
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "resources": [
+                        0,
+                        0,
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "resources": [
+                        0,
+                        0,
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "resources": [
+                        0,
+                        0,
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "flavor": "They'll take your treats by taking tricks."
+        },
+        {
+            "name": "Legitimate Business",
+            "type": "Project",
+            "subtype": "Group",
+            "resources": [
+                "5",
+                "5",
+                "10",
+                "5",
+                "5"
+            ],
+            "powers": [
+                {
+                    "flavor": "By any means",
+                    "text": "Each Fall and Winter, if this is Fully Staffed, you may Draw a Card. If you do, Stress Out a Friend."
+                }
+            ],
+            "needs": [
+                {
+                    "resources": [
+                        0,
+                        0,
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "resources": [
+                        0,
+                        0,
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "resources": [
+                        0,
+                        0,
+                        1,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "flavor": "Their business is none of yours."
+        },
+        {
+            "name": "Rock Polisher's Lodge",
+            "type": "Project",
+            "subtype": "Group",
+            "resources": [
+                "8",
+                "8",
+                "8",
+                "8",
+                "8"
+            ],
+            "powers": [
+                {
+                    "flavor": "Secret Society",
+                    "text": "Each Spring, when this is fully-staffed, it gains a follower."
+                },
+                {
+                    "flavor": "Community ties",
+                    "text": "For each Follower this has, Excess Resources from this can be used to Meet the Needs of one additional Role."
+                }
+            ],
+            "needs": [
+                {
+                    "resources": [
+                        0,
+                        0,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "resources": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "resources": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "flavor": "The Triangle within the Circle."
+        },
+        {
+            "name": "Dirty Tricks",
+            "type": "Skill",
+            "powers": [
+                {
+                    "cost": {
+                        "resources": [
+                            0,
+                            0,
+                            3,
+                            0,
+                            0
+                        ]
+                    },
+                    "flavor": "Meddle",
+                    "text": "You may add or subtract 1 from a single die roll. Limit: Once per Season."
+                }
+            ]
+        },
+        {
+            "name": "Scurrilous Rhetoric",
+            "type": "Skill",
+            "powers": [
+                {
+                    "cost": {
+                        "resources": [
+                            0,
+                            2,
+                            4,
+                            2,
+                            0
+                        ]
+                    },
+                    "flavor": "Demagoguery",
+                    "text": "Each Season, During an Election Year, You may add or Subtract 1 maturity from a Political Project."
+                }
+            ],
+            "flavor": "Why is it that our opponents seem to be completely unable to think of the children?"
+        },
+        {
+            "name": "Green Thumb",
+            "type": "Skill",
+            "powers": [
+                {
+                    "flavor": "Row by row",
+                    "text": "If a Horticultural Project connected to this Friend would gain Maturity, it gains that much Maturity plus 1 instead."
+                }
+            ],
+            "flavor": "🎶 Gonna make this garden grow... 🎶"
+        }
+    ]
+}

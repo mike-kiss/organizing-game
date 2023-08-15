@@ -1,0 +1,8 @@
+.card-filters-card-copies {
+    position: relative;
+    max-width: 50px;
+}
+
+.card-filters-card-copies input {
+    max-width: 100%;
+}

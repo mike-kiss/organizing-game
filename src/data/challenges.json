@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Friend Moves Away",
+        "type": "Challenge",
+        "subtype": "Big",
+        "resources": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "attributes": [
+            "Life Challenge"
+        ],
+        "powers": [
+            {
+                "flavor": "We'll miss you!",
+                "text": "Tuck a Friend."
+            }
+        ]
+    }
+]

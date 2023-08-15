@@ -1,0 +1,25 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.header-title {
+    font-size: 24px;
+    margin: 12px 0;
+}
+
+.header section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}

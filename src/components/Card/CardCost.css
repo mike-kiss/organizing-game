@@ -1,0 +1,8 @@
+.card-cost-total {
+    display: inline-block;
+    width: 0.15in;
+    border: 1px solid var(--borderColor);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 0.1in;
+}
