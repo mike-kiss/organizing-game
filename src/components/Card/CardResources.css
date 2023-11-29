@@ -1,8 +1,15 @@
+.card-resources-container {
+    position: relative;
+    z-index: 50;
+    border-bottom: 1px solid var(--borderColor);
+}
+
 .card-resources {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 0.05in 0.5in 0 0.5in;
+    margin-bottom: 0.025in;
 }
 
 .card-resource {
@@ -66,4 +73,10 @@
 .resource-value-2::after {
     content: '';
 
+}
+
+.card-attributes {
+    text-align: center;
+    font-size: 0.125in;
+    padding-bottom: 0.05in;
 }

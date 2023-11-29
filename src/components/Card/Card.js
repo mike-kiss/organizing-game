@@ -21,7 +21,6 @@ export const Card = ({ card }) => {
         <article
             className={classNames("card", getMainResourceClassName(mainResources), { "card-selected": selectedCards[card.name] })}
             onClick={() => {
-                console.log("AHHHHHH!!!!")
                 toggleCardSelection(card.name)
             }}
         >

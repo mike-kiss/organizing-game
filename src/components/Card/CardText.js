@@ -29,11 +29,6 @@ export const CardText = ({ attributes, powers, needs, flavor }) => {
                     { 'narrow': sideNeedsHaveAttributes })
                 }
             >
-                {attributes && <section className="card-attributes">
-                    {attributes?.map(((attribute, index) =>
-                        (<span key={attribute} className="card-attribute">{`${index === 0 ? "" : ", "} ${attribute.replace(" ", '\u00A0')}`}</span>)
-                    ))}
-                </section>}
                 {powers && <section className="card-powers">
                     {powers?.map(power =>
                         (<CardPower key={power.text} {...power} />)

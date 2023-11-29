@@ -26,7 +26,7 @@
 .card-needs-1 {
     position: absolute;
     right: -1.1in;
-    bottom: 1.75in;
+    bottom: 1.5in;
     transform: rotate(270deg);
 }
 
@@ -38,7 +38,7 @@
 .card-needs-2 {
     position: absolute;
     left: -1.09in;
-    bottom: 1.75in;
+    bottom: 1.5in;
     transform: rotate(90deg);
 }
 
@@ -52,16 +52,17 @@
     bottom: 0.5in;
     transform: rotate(45deg);
     z-index: 35;
+    background-color: transparent;
 }
 
 .card-has-four-needs .card-needs-1 {
-    bottom: 2.125in;
+    bottom: 1.85in;
     margin-right: 0;
     z-index: 30;
 }
 
 .card-has-four-needs .card-needs-2 {
-    bottom: 2.125in;
+    bottom: 1.85in;
     margin-left: 0;
     z-index: 30;
 }
@@ -73,6 +74,7 @@
     transform: rotate(-45deg);
     background-color: transparent;
     z-index: 305;
+    background-color: transparent;
 }
 
 .card-needs-attributes {
