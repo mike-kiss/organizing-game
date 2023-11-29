@@ -60,6 +60,13 @@
     -webkit-text-stroke-color: black;
 }
 
+.resource-value-length-4 {
+    font-size: 0.1in;
+    line-height: 0.25in;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
 .resource-value-0 {
     background-color: var(--bgColor) !important;
     color: var(--bgColor);
