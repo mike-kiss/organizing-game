@@ -12,7 +12,12 @@ export const CardResources = ({ attributes, resources, mainResources }) => {
     }
     return (
         <section className="card-resources-container">
-            <aside className="card-resources">
+            {attributes && <section className="card-attributes">
+                {attributes?.map(((attribute, index) =>
+                    (<span key={attribute} className="card-attribute">{`${attribute.replace(" ", '\u00A0')}${index < attributes.length - 1 ? ",\u00A0" : ""}`}</span>)
+                ))}
+            </section>}
+            <section className="card-resources">
                 {resources?.map((resource, index) => {
                     const resourceValue = resource
                     const resourceName = RESOURCES[index];
@@ -32,12 +37,7 @@ export const CardResources = ({ attributes, resources, mainResources }) => {
                             {resourceValue}
                         </span>)
                 })}
-            </aside>
-            {attributes && <section className="card-attributes">
-                {attributes?.map(((attribute, index) =>
-                    (<span key={attribute} className="card-attribute">{`${index === 0 ? "" : ", "} ${attribute.replace(" ", '\u00A0')}`}</span>)
-                ))}
-            </section>}
+            </section>
         </section>
     )
 }
