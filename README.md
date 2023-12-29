@@ -6,6 +6,8 @@ This is a web app that generates playtest cards for Untitled Organizing Game. Ca
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The rest of the README for that follows.
 
+Organizing Game © 2023 by Michael Kissinger is licensed under CC BY-NC-SA 4.0 
+
 ## Available Scripts
 
 In the project directory, you can run:
