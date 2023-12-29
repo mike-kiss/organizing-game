@@ -5,7 +5,7 @@ import "./CardResources.css"
 
 export const CardResources = ({ attributes, resources, mainResources }) => {
 
-    const resourcesTotal = resources.reduce((acc, resource) => acc + resource, 0)
+    const resourcesTotal = resources?.reduce((acc, resource) => acc + resource, 0)
 
     if (resourcesTotal === 0) {
         return null

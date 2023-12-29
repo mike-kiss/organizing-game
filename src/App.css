@@ -21,12 +21,14 @@ body {
 
 .App {
   --bgColor: black;
+  --bgColorTransparent: #000a;
   --textColor: white;
   --borderColor: white;
 }
 
 .App.light-mode {
   --bgColor: white;
+  --bgColorTransparent: #fffa;
   --textColor: black;
   --borderColor: black;
 }

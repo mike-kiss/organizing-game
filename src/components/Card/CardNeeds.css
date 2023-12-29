@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 0.05in 0.5in;
-    background-color: var(--bgColor);
+    /* background-color: var(--bgColor); */
     min-height: 0.35in;
     z-index: 20
 }
@@ -72,7 +72,6 @@
     left: 0.6in;
     bottom: 0.5in;
     transform: rotate(-45deg);
-    background-color: transparent;
     z-index: 305;
     background-color: transparent;
 }
@@ -82,7 +81,8 @@
     font-size: 0.125in;
     margin: 0 -0.25in;
     padding: 0.05in 0;
-    background-color: var(--bgColor);
+    background-color: var(--bgColorTransparent);
+
 }
 
 .card-needs-attribute {
@@ -93,7 +93,6 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
-    background-color: var(--bgColor);
 }
 
 .card-need {

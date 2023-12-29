@@ -24,7 +24,7 @@ export const Card = ({ card }) => {
                 toggleCardSelection(card.name)
             }}
         >
-            {card.resources && <CardResources {...card} mainResources={mainResources} />}
+            {(card.resources || card.attributes) && <CardResources {...card} mainResources={mainResources} />}
             <CardHeader {...card} />
             <CardArt {...card} />
             <CardText {...card} />
