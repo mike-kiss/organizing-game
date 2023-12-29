@@ -1,4 +1,6 @@
-# Organizing Resources Game (ORG) / Organized Resource Balancing (ORB)
+# Organizing Game
+
+## OR Organizing Resources Game (ORG) / Organized Resource Balancing (ORB)
 
 This is a web app that generates playtest cards for Untitled Organizing Game. Cards are kept in JSON files in the `/data` directory. It may not make sense if you haven't talked to Mike or read the rules.
 
