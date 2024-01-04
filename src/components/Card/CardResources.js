@@ -6,13 +6,17 @@ import "./CardResources.css"
 export const CardResources = ({ attributes, resources, mainResources }) => {
 
     const resourcesTotal = resources?.reduce((acc, resource) => acc + resource, 0)
+    const hasAttributes = attributes && attributes.length > 0
 
-    if (resourcesTotal === 0) {
+    console.log("resources total", resourcesTotal, attributes)
+
+    if ((!resourcesTotal || resourcesTotal === 0) && !hasAttributes) {
         return null
     }
+
     return (
         <section className="card-resources-container">
-            {attributes && <section className="card-attributes">
+            {attributes && attributes.length > 0 && <section className="card-attributes">
                 {attributes?.map(((attribute, index) =>
                     (<span key={attribute} className="card-attribute">{`${attribute.replace(" ", '\u00A0')}${index < attributes.length - 1 ? ",\u00A0" : ""}`}</span>)
                 ))}

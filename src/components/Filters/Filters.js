@@ -9,7 +9,7 @@ export const Filters = () => {
 
     return (
         <section className="header-filters">
-            {/* <div>
+            {<div>
                 <label htmlFor="deck-select">Deck</label>
                 <select name="deck-select" onChange={(e) => {
                     setCurrentDeck(e.target.value)
@@ -19,8 +19,8 @@ export const Filters = () => {
                         {decks[deck].name}
                     </option>))}
                 </select>
-            </div> */}
-            <div>
+            </div>}
+            <div className="header-filter">
                 <label htmlFor="card-type-select">Card Type</label>
                 <select name="card-type-select" onChange={(e) => {
                     setCardFilterValue("type", e.target.value)
@@ -29,7 +29,7 @@ export const Filters = () => {
                     {CARD_TYPES.map((type) => <option key={type} value={type}>{type}</option>)}
                 </select>
             </div>
-            <div>
+            <div className="header-filter">
                 <label htmlFor="card-name-input">Name</label>
                 <input name="card-name-input" value={currentCardName} onChange={(e) => {
                     setCurrentCardName(e.target.value)

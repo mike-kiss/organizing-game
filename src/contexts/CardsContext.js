@@ -8,6 +8,7 @@ import goals from "../data/goals.json"
 import groups from "../data/groups.json"
 
 import abolishLawnsWithGrannysGuile from "../decks/AbolishLawnsWithGrannysGuile.json"
+import medicineForTheMasses from "../decks/MedicineForTheMasses.json"
 
 const CardsContext = createContext({})
 
@@ -33,7 +34,8 @@ export const CardsProvider = ({ children }) => {
         ...challenges
     ])
     const [decks, setDecks] = useState({
-        "abolishLawnsWithGrannysGuile": abolishLawnsWithGrannysGuile
+        "abolishLawnsWithGrannysGuile": abolishLawnsWithGrannysGuile,
+        "medicineForTheMasses": medicineForTheMasses
     })
 
     console.log("CHALLENGES!", challenges)
@@ -74,6 +76,7 @@ export const CardsProvider = ({ children }) => {
         return (decks[currentDeck]?.cards || cards).filter(card => {
             // First, check the name filter
             if (currentCardName.length > 0 && !card.name.toLowerCase().includes(currentCardName.toLowerCase())) {
+                console.log("filtered by name")
                 return false
             }
             // Hack to avoid having to make subtype filtering

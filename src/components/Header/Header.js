@@ -5,7 +5,7 @@ import "./Header.css"
 export const Header = () => {
     return (<header className="header">
         <section>
-            <h1 className="header-title">Untitled Organizing Game</h1>
+            <h1 className="header-title">Organizing Game</h1>
             <Filters />
             <CardsSelector />
         </section>

@@ -1,200 +1,211 @@
 {
-    "name": "Abolish Lawns with Granny's Guile",
-    "flavor": "In a quiet town nowhere particularly important lived a sweet old woman. She drank tea and knitted beautiful sweaters for her ungrateful grandchildren. She was co-President of the local Rotory Club and met with her friends on Sunday to play Bridge and exchange the latest gossip. She loved bees and she loved wildflowers and she wished the world were covered with them. One day, she decided to stop wishing and make it happen… by any means necessary.",
-    "description": "The Knitting Circles of Sumwarre have had enough of the loud lawnmowers and the toxic pesticides. They are going to Abolish Lawns and they are not afraid to get their hands dirty to do it. Use your Green Thumb to make 10,000 flowers bloom while you use Dirty Tricks to win the Mayor's Office and take over City Council. Grow from a Shady Grandma into a Social Club President or from a Wise Old Woman into a Foundation Founder. Just do what you need to do to get the job done.",
+    "name": "Medicine for the Masses",
+    "flavor": "In a world where medicine is distributed only by markets, the poor will suffer while the rich profit from the suffering of those who can afford it. Do you dare try to bring Medicine to the Masses?",
+    "description": "",
     "cards": [
         {
-            "name": "Abolish Lawns",
+            "name": "Medicine for the Masses",
             "type": "Project",
-            "subtype": "Goal, Ecological",
+            "subtype": "Goal, Technological",
             "attributes": [
-                "Ecological (x Followers)",
-                "Mass Movement (x Followers)"
+                "Medical × 100"
             ],
-            "powers": [
-                {
-                    "flavor": "Mass Movement",
-                    "text": "This has followers equal to its Maturity x 5"
-                }
-            ],
+            "powers": [],
             "needs": [
                 {
                     "attributes": [
-                        "Combined Ecological x 10"
-                    ]
-                },
-                {
-                    "attributes": [
-                        "Media Attention"
-                    ]
-                },
-                {
-                    "attributes": [
-                        "(Combined Political Power x 5)",
-                        "OR",
-                        "(Mass Movement x 20)"
+                        "Total Science × 25",
+                        "Mass Movement × 25"
                     ]
                 }
             ]
         },
         {
-            "name": "Become City Councillor",
+            "name": "Home Science Lab",
             "type": "Project",
-            "subtype": "Goal, Political",
+            "subtype": "Scientific, Capital",
+            "duration": 2,
             "attributes": [
-                "Political Power x 2"
+                "[Science × Staffing]"
             ],
             "powers": [
                 {
-                    "flavor": "Election Year",
-                    "text": "Staff this only during years divisible by 4. This can only gain Maturity during an Election Year."
-                },
-                {
-                    "flavor": "Election",
-                    "text": "In Fall of an Election Year, roll a D6. If the result is less than our Maturity, Active this until the next Election and set its Maturity to 1. Else Deactivate this and set its Maturity to 0."
+                    "flavor": "Laboratory",
+                    "text": "This provides 5 Science per Friend staffing it."
                 }
             ],
             "needs": [
                 {
-                    "flavor": "Candidate",
+                    "flavor": "Scientist",
                     "attributes": [
-                        "Charismatic"
+                        "Science × 2"
                     ],
                     "resources": [
-                        1,
-                        1,
-                        1,
-                        1,
+                        0,
+                        0,
+                        0,
+                        3,
                         1
                     ]
                 },
                 {
-                    "flavor": "Campaign Manager",
+                    "flavor": "Scientist",
+                    "attributes": [
+                        "Science × 1"
+                    ],
                     "resources": [
-                        1,
-                        1,
-                        1,
-                        1,
+                        0,
+                        0,
+                        0,
+                        2,
                         1
                     ]
                 },
                 {
-                    "flavor": "Support Team",
+                    "flavor": "Scientist",
+                    "attributes": [
+                        "Science × 1"
+                    ],
                     "resources": [
-                        5,
-                        5,
-                        5,
-                        5,
-                        5
+                        0,
+                        0,
+                        0,
+                        2,
+                        1
                     ]
                 }
             ]
         },
         {
-            "name": "Become Mayor",
+            "name": "Outreach Campaign",
             "type": "Project",
             "subtype": "Goal, Political",
+            "duration": 1,
             "attributes": [
-                "Political Power x 3"
+                "Media Attention × 1"
             ],
             "powers": [
                 {
-                    "flavor": "Election Year",
-                    "text": "Staff this only during years divisible by 4. This can only gain Maturity during an Election Year."
+                    "flavor": "Public Support",
+                    "text": "Each season that this is mature and staffed, choose a Goal. For each Friend staffing this, that Goal gains 1 follower."
                 },
                 {
-                    "flavor": "Election",
-                    "text": "In Fall of an Election Year, roll 2 D6. If the result is less than our Maturity, Active this until the next Election and set its Maturity to 1. Else Deactivate this and set its Maturity to 0."
+                    "flavor": "Mobilized Followers",
+                    "text": "Each Goal with followers provides Mass Movement equal to its followers."
+                },
+                {
+                    "flavor": "Short Attention Span",
+                    "text": "If this isn't bottom-lined in a season, set its maturity to 0."
                 }
             ],
             "needs": [
                 {
-                    "flavor": "Candidate",
+                    "flavor": "Campaign Director",
                     "attributes": [
                         "Charismatic"
                     ],
                     "resources": [
-                        2,
-                        2,
-                        2,
-                        2,
-                        2
+                        0,
+                        0,
+                        1,
+                        0,
+                        1
                     ]
                 },
                 {
-                    "flavor": "Campaign Manager",
+                    "flavor": "Campaign Staff",
                     "resources": [
-                        2,
-                        2,
-                        2,
-                        2,
-                        2
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
                     ]
                 },
                 {
-                    "flavor": "Support Team",
+                    "flavor": "Campaign Staff",
                     "resources": [
-                        8,
-                        8,
-                        8,
-                        8,
-                        8
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
                     ]
                 }
             ]
         },
         {
-            "name": "Wildflower Garden",
+            "name": "Recruitment Drive",
             "type": "Project",
-            "subtype": "Goal, Horticultural",
+            "subtype": "Goal",
             "duration": 4,
-            "attributes": [
-                "Ecological"
-            ],
+            "attributes": [],
             "powers": [
                 {
-                    "flavor": "Sowing Seeds",
-                    "text": "When this Matures, you may search your deck for another card named Wildflower Garden and put it into Play."
+                    "flavor": "Outreach",
+                    "text": "Each season, this gains 1 maturity per Friend staffing it."
+                },
+                {
+                    "flavor": "Find a Friend",
+                    "text": "When this Matures, Search your Deck for a Friend and put it into your hand. Then set this Maturity to 0."
                 }
             ],
             "needs": [
                 {
                     "resources": [
-                        0,
-                        0,
-                        0,
-                        0,
-                        0
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "resources": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "resources": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
                     ]
                 }
             ]
         },
         {
-            "name": "Community Permaculture Garden",
+            "name": "Open-Source Lab Equipment",
             "type": "Project",
-            "subtype": "Goal, Horticultural",
-            "duration": 6,
+            "subtype": "Goal, Scientific",
+            "duration": 8,
             "attributes": [
-                "Ecological x 3"
+                "Science × Followers"
             ],
             "powers": [
                 {
-                    "flavor": "Relaxing Respite",
-                    "text": "When Completed, all needs for Wisdom are reduced by 2."
+                    "flavor": "Mass movement",
+                    "text": "Each Season, if this is mature and fully-staffed, it gains 1 follower."
                 },
                 {
-                    "flavor": "In good time",
-                    "text": "When Staffed, this Project gains 1 Maturity for each Covered Role."
+                    "flavor": "Development",
+                    "text": "Each season, this gains 1 maturity per Friend staffing it."
                 }
             ],
             "needs": [
                 {
                     "resources": [
+                        1,
+                        1,
+                        1,
                         2,
-                        1,
-                        1,
-                        1,
-                        1
+                        2
                     ]
                 },
                 {
@@ -202,7 +213,7 @@
                         0,
                         0,
                         0,
-                        0,
+                        1,
                         0
                     ]
                 },
@@ -211,27 +222,26 @@
                         0,
                         0,
                         0,
-                        0,
+                        1,
                         0
                     ]
                 }
             ]
         },
         {
-            "name": "Anti-Lawnmower Front (ALF)",
+            "name": "Research Project",
             "type": "Project",
             "subtype": "Goal",
-            "attributes": [
-                "Clandestine"
-            ],
+            "duration": 4,
+            "attributes": [],
             "powers": [
                 {
-                    "flavor": "Cadre",
-                    "text": "This has Followers equal to its Maturity. If Unstaffed, it loses 1 Maturity each Season."
+                    "flavor": "Discovery",
+                    "text": "When this matures, search your deck for a Scientific Project and put it into your hand. When you do, set this maturity to 0."
                 },
                 {
-                    "flavor": "Sabotage",
-                    "text": "When this has 4 or more followers, you may Handle 1 Ecological Challenge. Limit: Once per Year."
+                    "flavor": "Research",
+                    "text": "Each season, if staffed, this gains 1 maturity per Friend staffing it."
                 }
             ],
             "needs": [
@@ -240,55 +250,52 @@
                         1,
                         1,
                         1,
+                        2,
+                        1
+                    ]
+                },
+                {
+                    "resources": [
+                        1,
+                        1,
+                        1,
                         1,
                         1
                     ]
                 },
                 {
                     "resources": [
-                        0,
-                        0,
                         1,
-                        0,
-                        0
-                    ]
-                },
-                {
-                    "resources": [
-                        0,
-                        0,
                         1,
-                        0,
-                        0
+                        1,
+                        1,
+                        1
                     ]
                 }
             ]
         },
         {
-            "name": "Grassroots Network",
+            "name": "Stay in School",
             "type": "Project",
-            "subtype": "Goal",
-            "attributes": [
-                "Political"
-            ],
+            "subtype": "Goal, Educational",
             "powers": [
                 {
-                    "flavor": "Cadre",
-                    "text": "This has Followers equal to its Maturity. If Unstaffed, it loses 1 Maturity each Season."
+                    "flavor": "Study up",
+                    "text": "Each season, each Friend connected to this gains a credit."
                 },
                 {
-                    "flavor": "Political Support",
-                    "text": "During an Election, you may move 1 Maturity from this to each of any number of other Political Projects."
+                    "flavor": "Graduation",
+                    "text": "When a Friend disconnects, you may search your deck for a Friend card that can be played on that Friend and provides up to the following:\n - 4 credits: Technical\n - 6 credits: Science, Knowledgable, Artsy, Critical Thinking,\n - 8 credits: Legal, Medical, Science × 3"
                 }
             ],
             "needs": [
                 {
                     "resources": [
-                        1,
-                        1,
-                        1,
-                        1,
-                        1
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
                     ]
                 },
                 {
@@ -312,23 +319,20 @@
             ]
         },
         {
-            "name": "Wise Old Woman",
+            "name": "Idealistic Student",
             "type": "Friend",
             "phase": "Seed",
             "resources": [
+                0,
                 1,
                 0,
-                0,
-                0,
+                1,
                 0
-            ],
-            "attributes": [
-                "Wise"
             ],
             "powers": [
                 {
-                    "flavor": "Elder’s Insight",
-                    "text": "Each Fall, you may Envision an additional time."
+                    "flavor": "Zeal",
+                    "text": "This can cover any needs with total cost 3 or less. If it does, it becomes stressed."
                 }
             ]
         },
@@ -609,7 +613,7 @@
                 5
             ],
             "attributes": [
-                "Nautical Skills"
+                "Nautical"
             ]
         },
         {
@@ -676,7 +680,7 @@
                     ]
                 }
             ],
-            "flavor": "They see what you did there."
+            "flavor": "We see what you did there."
         },
         {
             "name": "Knitting Circle",
