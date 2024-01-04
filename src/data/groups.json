@@ -94,56 +94,6 @@
         ]
     },
     {
-        "name": "Sex Club",
-        "type": "Project",
-        "subtype": "Group",
-        "resources": [
-            "10/5",
-            10,
-            "5/10",
-            5,
-            5
-        ],
-        "needs": [
-            {
-                "attributes": [
-                    "Charismatic"
-                ],
-                "resources": [
-                    0,
-                    1,
-                    0,
-                    1,
-                    1
-                ]
-            },
-            {
-                "resources": [
-                    1,
-                    1,
-                    0,
-                    0,
-                    0
-                ]
-            },
-            {
-                "resources": [
-                    0,
-                    1,
-                    0,
-                    0,
-                    1
-                ]
-            }
-        ],
-        "powers": [
-            {
-                "flavor": "Pleasure or Power",
-                "text": "If the bottom-liner's main resource is Guile, this produces 5 Wisdom and 10 Guile [Stress?]. Otherwise it produces 10 Wisdom and 5 guile."
-            }
-        ]
-    },
-    {
         "name": "Guerilla Band",
         "type": "Project",
         "subtype": "Group",
